@@ -10,8 +10,8 @@ function Users() {
         {users.map((user) => (
           <li>{user.username}</li>
         ))}
-        {users.length}
       </ul>
+      {users.length}
     </div>
   );
 }
